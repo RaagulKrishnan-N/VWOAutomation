@@ -87,7 +87,7 @@ public class VWO  {
 // Temporary Wait
         //     Thread.sleep(4000);
 // Explicit Wait is Better
-        new WebDriverWait(driver,Duration.ofSeconds(5)).until(ExpectedConditions.titleContains("VWO Setup"));
+        new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.titleContains("VWO Setup"));
 
         // Below also we can try
 //new WebDriverWait(driver,Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1.page-heading")));
